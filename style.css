@@ -1,0 +1,66 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  font-family: Lato, sans-serif;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  padding: clamp(20px, 5vw, 50px) 20px 10px;
+}
+h1 {
+  font-size: 45px;
+  margin-bottom: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+h1 span {
+  font-family: Raleway;
+  font-weight: 600;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.input-group:nth-child(2) {
+  margin-top: 30px;
+}
+.container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.container input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 30% 70% 63% 37% / 30% 27% 73% 70%;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+form button {
+  font-size: 18px;
+  min-width: 100px;
+  margin: 20px 10px;
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.info-txt {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
