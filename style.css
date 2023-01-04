@@ -33,6 +33,11 @@ h1 span {
   margin-bottom: 10px;
   font-weight: 600;
 }
+input:focus {
+  outline: 5px groove rgba(28, 110, 164, 0.35);
+  outline-offset: 4px;
+}
+
 .container input {
   display: block;
   width: 100%;
@@ -60,7 +65,22 @@ form button {
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 .info-txt {
-    font-size: 18px;
-    margin-top: 20px;
-    text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.toasts-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.toasts {
+  font-size: 17px;
+  color: #f1f1f1;
+  padding: 10px;
+  margin: 10px 0;
+  min-width: 250px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
 }
